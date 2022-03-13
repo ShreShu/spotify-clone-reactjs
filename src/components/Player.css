@@ -1,0 +1,4 @@
+.player_body {
+  /* by default flex is column */
+  display: flex;
+}

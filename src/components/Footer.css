@@ -1,0 +1,55 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 65px;
+  width: 97%;
+  background-color: #282828;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* to distribute the whole size equally between them */
+}
+
+.footer_center {
+  flex: 0.4;
+  padding: 0 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 300px;
+}
+
+.footer_left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  color: white;
+  max-width: 300px;
+}
+.footer_albumlogo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+/* .MuiSlider-root is used to target the slider provided by material UI */
+.footer_right *.MuiSlider-root {
+  color: green;
+}
+
+.footer_icon:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+.footer_songInfo > p {
+  font-size: 12px;
+}
+
+.footer_right {
+  flex: 0.3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
